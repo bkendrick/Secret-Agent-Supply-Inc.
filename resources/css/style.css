@@ -1,0 +1,188 @@
+/*--------------------------------*/
+html {
+    background-color: white;
+    font-size: 18px;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.flex-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+/*--------------------------------*/
+
+.name {
+    background-color: black;
+    color: white;
+}
+
+.name img {
+    height: 1.5em;
+    padding: 0.25rem 0.5rem;
+}
+
+.name .flex-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0.66rem 0.5rem;
+}
+
+
+/*--------------------------------*/
+
+.banner {
+    background-image: url("../images/Main banner background image.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner p {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 9rem;
+    margin-right: 1000px;
+    padding: 2rem 3rem;
+    width: 20rem;
+}
+
+/*--------------------------------*/
+
+.bar {
+    background-color: firebrick;
+    color: white;
+    height: 3rem;
+    font-size: 18px;
+}
+
+.bar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    padding: 0.75em 0;
+}
+
+/*--------------------------------*/
+
+.products {
+    display: flex;
+    align-items: center;
+    margin: 3em 0 0 0;
+    justify-content: center;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+
+.image {
+    width: 30%;
+}
+
+.pic {
+    border: 4px solid black;
+    padding: 2em 0;
+    height: 9em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic img {
+    max-width: 8em;
+}
+
+.category {
+    display: flex;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    margin: 0 0 3rem 0;
+    justify-content: center;
+}
+
+/*--------------------------------*/
+
+.company-info {
+    display: flex;
+
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 4rem 0;
+}
+
+.info {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info .top {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 1em 2em;
+}
+
+/*--------------------------------*/
+
+.end {
+    background-color: black;
+    color: white;
+    padding: 5em 0;
+}
+
+/*--------------------------------*/
+
+@media only screen and (max-width: 960px) {
+
+}
+
+/*--------------------------------*/
+
+@media only screen and (max-width: 700px) {
+    nav ul {
+        display: none;
+    }
+
+    .phone-nav {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+/*--------------------------------*/
+
+@media only screen and (max-width: 470px) {
+    footer {
+        text-align: center;
+    }
+}
+
+/*--------------------------------*/
+/*--------------------------------*/
+
