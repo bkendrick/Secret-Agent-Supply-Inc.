@@ -63,7 +63,7 @@ body {
 .bar {
     background-color: firebrick;
     color: white;
-    height: 3rem;
+    height: 2.8rem;
     font-size: 18px;
 }
 
@@ -74,6 +74,10 @@ body {
 
 li {
     padding: 0.75em 0;
+}
+
+.bar .phone-nav {
+    display: none;
 }
 
 /*--------------------------------*/
@@ -157,27 +161,66 @@ li {
 
 /*--------------------------------*/
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1024px) {
+    .html {
+        font-size: 15px;
+    }
 
-}
-
-/*--------------------------------*/
-
-@media only screen and (max-width: 700px) {
-    nav ul {
+    .bar .wide-screen {
         display: none;
     }
 
-    .phone-nav {
-        display: block;
-        text-align: center;
+    .bar .phone-nav {
+        display: flex;
+        justify-content: center;
     }
 
+    .image {
+        width: 47%;
+    }
+
+    .watch {
+        display: none;
+    }
 }
 
 /*--------------------------------*/
 
 @media only screen and (max-width: 470px) {
+    .banner {
+        height: 15em;
+    }
+
+    .banner p {
+        padding: 0.5em 1.5em;
+        top: 0;
+        bottom: 30px;
+        margin-top: 100px;
+        margin-right: 1000px;
+    }
+
+    .row1 {
+        justify-content: center;
+        margin: 3rem 0;
+    }
+
+    .row2 {
+        flex-direction: column;
+    }
+
+    .info {
+        width: 90%;
+        margin: 0.5em auto;
+    }
+
+    .image {
+        width: 90%
+    }
+
+    .glasses {
+        display: none;
+    }
+
     footer {
         text-align: center;
     }
